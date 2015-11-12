@@ -1,0 +1,24 @@
+# Site settings
+title: Gus' blog
+email: gus@inodes.org
+description: "Just like a real blog, only poorly written and rarely updated!"
+baseurl: ""
+url: "{{ site.github.url }}"
+#twitter_username: jekyllrb
+github_username:  anguslees
+
+# github forces these
+safe: true
+lsi: false
+#source: .
+
+# Build settings
+highlighter: pygments
+markdown: kramdown
+kramdown:
+  input: GFM
+sass:
+  style: :compressed
+permalink: pretty
+
+exclude: ["LICENSE", "README.md", "CNAME"]
