@@ -3,7 +3,7 @@ title: Gus' blog
 email: gus@inodes.org
 description: "Just like a real blog, only poorly written and rarely updated!"
 baseurl: ""
-url: "{{ site.github.url }}"
+#url: ...
 #twitter_username: jekyllrb
 github_username:  anguslees
 
@@ -17,8 +17,9 @@ highlighter: pygments
 markdown: kramdown
 kramdown:
   input: GFM
+  hard_wrap: false
 sass:
-  style: :compressed
+  style: compressed
 permalink: pretty
 
 exclude: ["LICENSE", "README.md", "CNAME"]
