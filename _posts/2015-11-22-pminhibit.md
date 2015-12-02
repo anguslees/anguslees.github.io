@@ -73,7 +73,7 @@ I then add the following to `~/.profile` but you will need to check
 that your shell kills the subprocess correctly when you log out (I use
 zsh, but I believe bash is more eager to disown backgrounded processes):
 
-{% highlight shell %}
+{% highlight sh %}
 # If this is an interactive ssh session, inhibit suspend
 if [ -t 0 -a -n "$SSH_CONNECTION" ]; then
     pminhibit &
