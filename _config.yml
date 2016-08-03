@@ -13,7 +13,7 @@ lsi: false
 #source: .
 
 # Build settings
-highlighter: pygments
+highlighter: rouge
 markdown: kramdown
 kramdown:
   input: GFM
